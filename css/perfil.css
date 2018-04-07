@@ -1,0 +1,32 @@
+
+*{font-family: sans-serif;}
+
+#img_perfil{
+  display: block;
+  height: 120px;
+  width: 120px ;
+  border-radius: 100%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+#identificacao_pessoal{
+  text-align: center;
+  width: 40%;
+  margin-top: 5px;
+}
+header{
+  padding: 10px;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeed5; /*Cor do plano de fundo do Header*/
+  width: calc(75% + 50px);
+}
+#info_pessoais,#identificacao_pessoal{
+  display: inline-block;
+}
+#info_pessoais{
+  text-align: center;
+  width: 400px;
+}
