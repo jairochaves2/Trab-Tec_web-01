@@ -1,15 +1,39 @@
+@font-face {
+  font-family:'Abel';
+  src:url(../fonts/fonts/Abel-Regular.ttf);
+}
+@font-face {
+  font-family:'Poppins';
+  src:url(../fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family:'FjallaOne';
+  src:url(../fonts/FjallaOne-Regular.ttf);
+}
+@font-face {
+  font-family:'WorkSans';
+  src:url(../fonts/WorkSans-ExtraLight.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;}
+html,body{
+  height: calc(100% - 50px);
+}
 .active{
   background-color: #226666;
 }
 body{
   background-color: #455656;
+
 }
-*{	padding: 0;
-  margin: 0;	}
-nav{	width: 100%;
-    height: 50px;
+nav{width: 100%;
+    height: calc(7% + 6px);
     background-color: #365F5F;
     font-family: 'Arial';
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 nav ul{
   list-style: none;
@@ -55,21 +79,22 @@ nav ul ul li{
 }
 nav ul ul li a{
   background-color: #078;
-  
+
 }
 #label_menu{
 
-  padding: 5px;
-  padding-bottom: 0px;
+
+
   background-color: #000; /*valor da cor do label btn_exibir*/
   color: #ffffff; /*valor da cor da font*/
   font-family: Arial;
   text-align: center;
   font-size: 30px;
   cursor: pointer;
-  width: 50px;
-  height: 45px;
+  width: 100%;
+  height: 50px;
   display: none;
+
 }
 #btn_exibir{
   display: none;
@@ -84,19 +109,24 @@ nav ul ul li a{
     margin-left: -1500px;
     margin-top: -50px;
     transition: all 0.4s;
+    top: 50px;
+    position: fixed;
   }
 
 
   #label_menu{
     display: block;
-
+    position: fixed;
     background: #2b2b2b;
     border: 0px solid;
     box-shadow: 0px 0px 10px #222;
+    top: 0;
+    left: 0;
   }
   #testee{
-    height: 50px;
+    height: 0px;
     width: auto;
+    display: block;
     background: #2b2b2b;
   }
   nav ul li{
@@ -119,4 +149,47 @@ nav ul ul li a{
   nav ul li #exp_prof{
     padding:15px;
   }
+}
+.infos{
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #eeeeff;/*DDDC97;*/
+  padding-left: 20px;
+  padding-top: 10px;
+  position: relative;
+
+}
+.infos li{
+  color: #281b2f;
+  margin-top: 10pt;
+  font-weight: 800;
+  margin-left: 40px;
+  list-style-image: url(../imagens/list.png);
+}
+.infos label{
+  font-weight: bold;
+  color: #0E5656;
+}
+article.infos  h3{
+  font-family: 'Arial';
+  color: #004646;
+
+}
+article,#pessoal{
+  border-radius: 12px;
+  margin-top: 4px;
+}
+#rodape{
+  background-color: #064347;
+  text-align: center;
+  line-height: 80px;
+  color: #aaa;
+  width: 100%;
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
 }

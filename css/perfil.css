@@ -1,32 +1,33 @@
-
-*{font-family: sans-serif;}
-
-#img_perfil{
-  display: block;
+div#nome{
+  width: 100%;
+  text-align: center;
+  font-family: 'WorkSans';
+  float: left;
   height: 120px;
-  width: 120px ;
+}
+
+#nome h4{
+  color: #777;
+}
+#img_perfil{
+  margin-top: 10px;
+  height: 80px;
+  width: 80px ;
   border-radius: 100%;
   background-color: #fff;
-  margin-left: auto;
-  margin-right: auto;
 }
-#identificacao_pessoal{
-  text-align: center;
-  width: 40%;
-  margin-top: 5px;
+hgroup{
+  padding-top: 5px;
+  height: 70px;
 }
-header{
-  padding: 10px;
-  padding-left: 40px;
-  margin-left: auto;
-  margin-right: auto;
+article#pessoal{
+  margin:0 auto;
   background-color: #eeeed5; /*Cor do plano de fundo do Header*/
-  width: calc(75% + 50px);
+  width: 70%;
+  height: 150px;
+  margin-top: 50px;
 }
-#info_pessoais,#identificacao_pessoal{
-  display: inline-block;
-}
-#info_pessoais{
-  text-align: center;
-  width: 400px;
+.infos{
+  height: 35%;
+    padding-bottom: 38vh;
 }
