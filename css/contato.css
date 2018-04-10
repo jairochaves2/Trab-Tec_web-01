@@ -1,0 +1,38 @@
+button{
+  background-color: #004646;
+  font-weight: bold;
+  position: relative;
+  padding: 15px;
+  color: #fff;
+  width: 100px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+input,textarea{
+  width: 400px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 20pt;
+  color:#0E5656;
+  padding-left: 5px;
+  margin-bottom: 12px;
+  resize: none;
+}
+div.botoes{
+  position: absolute;
+  display: block;
+}
+textarea{
+  height: 150px;
+  font-size: 16pt;
+}
+#enviar{
+  background-color: #085b42;
+}
+.erro{
+
+  margin-left: 3px;
+  font-family: "Comfortaa";
+  color: #be000b;
+}

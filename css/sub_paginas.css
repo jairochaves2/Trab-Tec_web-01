@@ -1,0 +1,19 @@
+
+article.infos{
+  top: 50px;
+  padding-top: 50px;
+  height: calc(110% - 50px);
+  display: block;
+  z-index: 0;
+}
+.infos li{
+  text-align: justify;
+  margin-right: 25px;
+}
+nav{
+  z-index: 1;
+}
+form label{
+  font-weight: bold;
+  color: #0E5656;
+}

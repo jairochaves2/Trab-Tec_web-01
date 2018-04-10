@@ -14,21 +14,26 @@
   font-family:'WorkSans';
   src:url(../fonts/WorkSans-ExtraLight.ttf);
 }
+@font-face {
+  font-family:'Comfortaa';
+  src:url(../fonts/Comfortaa-Bold.ttf);
+}
 *{
   padding: 0;
   margin: 0;}
-html,body{
-  height: calc(100% - 50px);
-}
+  html,body{
+    height: calc(100% - 53px);
+  }
 .active{
   background-color: #226666;
 }
 body{
   background-color: #455656;
+  min-width: 500px;
 
 }
 nav{width: 100%;
-    height: calc(7% + 6px);
+    height: 50px;
     background-color: #365F5F;
     font-family: 'Arial';
     position: fixed;
@@ -111,6 +116,7 @@ nav ul ul li a{
     transition: all 0.4s;
     top: 50px;
     position: fixed;
+    z-index: 1;
   }
 
 
@@ -122,6 +128,7 @@ nav ul ul li a{
     box-shadow: 0px 0px 10px #222;
     top: 0;
     left: 0;
+    z-index: 1;
   }
   #testee{
     height: 0px;
@@ -158,6 +165,7 @@ nav ul ul li a{
   padding-top: 10px;
   position: relative;
 
+
 }
 .infos li{
   color: #281b2f;
@@ -165,6 +173,10 @@ nav ul ul li a{
   font-weight: 800;
   margin-left: 40px;
   list-style-image: url(../imagens/list.png);
+}
+.infos li a:link,.infos li a:visited{
+  text-decoration: none;
+  color: #281b2f;
 }
 .infos label{
   font-weight: bold;
@@ -182,10 +194,11 @@ article,#pessoal{
 #rodape{
   background-color: #064347;
   text-align: center;
+  font-family: 'Comfortaa';
   line-height: 80px;
   color: #aaa;
   width: 100%;
-  height: 15%;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
